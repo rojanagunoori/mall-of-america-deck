@@ -36,7 +36,14 @@ export default function Navbar() {
         }`}
       >
         {/* Logo */}
-        <div className="text-white text-sm tracking-widest uppercase">MOA</div>
+        <div className="flex items-center gap-2">
+          <img
+            src="/images/logo.jpeg"
+            alt="MOA Deck Logo"
+            className="h-8 w-auto object-contain"
+          />
+        </div>
+        {/* <div className="text-white text-sm tracking-widest uppercase">MOA</div> */}
 
         {/* Links */}
         <div
