@@ -1,10 +1,13 @@
-export default function Navbar() {
+export default function Luxury() {
   return (
-    <nav className="fixed top-0 z-50 w-full bg-black/70 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <h1 className="text-lg font-bold">MOA Deck</h1>
-        <span className="text-sm text-gray-400">Coming Soon</span>
+    <div className="flex gap-8 items-center">
+      <img src="/images/ai/luxury.jpeg" className="w-1/2 rounded-xl" />
+      <div>
+        <h3 className="text-3xl font-bold">Luxury Flagship</h3>
+        <p className="text-gray-400 mt-2">
+          Premium spaces designed for high-end global brands.
+        </p>
       </div>
-    </nav>
+    </div>
   );
 }

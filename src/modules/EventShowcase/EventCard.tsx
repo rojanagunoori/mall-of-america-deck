@@ -1,10 +1,8 @@
-export default function Navbar() {
+export default function EventCard({ title, description }: any) {
   return (
-    <nav className="fixed top-0 z-50 w-full bg-black/70 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <h1 className="text-lg font-bold">MOA Deck</h1>
-        <span className="text-sm text-gray-400">Coming Soon</span>
-      </div>
-    </nav>
+    <div className="p-6 bg-[#111] rounded-xl">
+      <h4 className="text-xl font-semibold">{title}</h4>
+      <p className="text-gray-400 mt-2">{description}</p>
+    </div>
   );
 }

@@ -9,19 +9,41 @@ import Events from "@/components/sections/Events";
 import Venues from "@/components/sections/Venues";
 import Leasing from "@/components/sections/Leasing";
 import CTA from "@/components/sections/CTA";
+import Navbar from "@/components/ui/Navbar";
+import FutureAI from "@/components/sections/FutureAI";
 
 export default function Home() {
   return (
-    <>
+    <main className="bg-primary">
+      <Navbar />
+
+      {/* 1. 🎬 Cinematic Hook */}
       <Hero />
+
+      {/* 2. 📊 Why this matters (data credibility) */}
       <WhyMOA />
+
+      {/* 3. 🛍 Retail power */}
       <Retail />
-      <Entertainment />
+
+      {/* 4. 🍽 Lifestyle layer */}
       <Dining />
-      <Events />
+
+      {/* 5. 🎢 Experience layer (differentiator) */}
+      <Entertainment />
+
+      {/* 6. 🏟 Venue credibility */}
       <Venues />
+
+      {/* 7. 🎤 Events = MONEY section */}
+      <Events />
+      <FutureAI />
+
+      {/* 8. 🏢 Leasing (conversion) */}
       <Leasing />
+
+      {/* 9. 📩 Final action */}
       <CTA />
-    </>
+    </main>
   );
 }

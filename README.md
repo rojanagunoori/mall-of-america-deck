@@ -1,5 +1,5 @@
 ```bash
-mall-of-dubai-deck/
+mall-of-america-deck/
 │
 ├── public/
 │   ├── videos/
@@ -22,6 +22,11 @@ mall-of-dubai-deck/
 │   │   ├── page.tsx
 │   │   └── globals.css
 │   │
+├── ai/
+│   ├── prompts.ts
+│   ├── concepts.ts
+│   └── generatedContent.ts
+│   │
 │   ├── components/
 │   │   ├── ui/
 │   │   │   ├── Button.tsx
@@ -30,18 +35,19 @@ mall-of-dubai-deck/
 │   │   │   ├── VideoBackground.tsx
 │   │   │   ├── AnimatedCounter.tsx
 │   │   │   └── Container.tsx
-│   │
+│   │   │
 │   │   ├── sections/
 │   │   │   ├── Hero.tsx
 │   │   │   ├── WhyMOA.tsx
 │   │   │   ├── Retail.tsx
 │   │   │   ├── Entertainment.tsx
+│   │   │   ├── FutureAI.tsx
 │   │   │   ├── Dining.tsx
 │   │   │   ├── Events.tsx
 │   │   │   ├── Venues.tsx
 │   │   │   ├── Leasing.tsx
 │   │   │   └── CTA.tsx
-│   │
+│   │   │
 │   │   └── modules/
 │   │       ├── LeasingPaths/
 │   │       │   ├── index.tsx
