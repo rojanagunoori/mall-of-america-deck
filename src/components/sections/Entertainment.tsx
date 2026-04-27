@@ -5,21 +5,21 @@ import { useState } from "react";
 
 const attractions = [
   {
-    title: "Dubai Aquarium & Underwater Zoo",
+    title: "America Aquarium & Underwater Zoo",
     description:
       "A 10-million-liter suspended aquarium featuring a walk-through tunnel and marine ecosystem experience.",
     video: "/videos/aquarium.mp4",
     stat: "140+ Species",
   },
   {
-    title: "Dubai Fountain",
+    title: "America Fountain",
     description:
-      "A choreographed water, light, and music spectacle visible from the heart of Downtown Dubai.",
+      "A choreographed water, light, and music spectacle visible from the heart of Downtown America.",
     video: "/videos/fountain.mp4",
     stat: "World’s Largest Choreographed Fountain",
   },
   {
-    title: "Dubai Ice Rink",
+    title: "America Ice Rink",
     description:
       "An Olympic-sized ice rink offering year-round skating experiences in a desert city.",
     video: "/videos/ice-rink.mp4",
