@@ -1,4 +1,4 @@
-# 🏙️ Mall of America – Interactive Sales Deck
+# 🏙️ Mall of America – Interactive Sales Deck (Digideck-Style Presentation System)
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![React](https://img.shields.io/badge/React-18-blue)
@@ -13,13 +13,28 @@
 
 # 2. 📌 Project Overview
 
-The **Mall of America Interactive Sales Deck** is a cinematic, browser-based pitch experience designed for large-scale commercial real estate storytelling.
+The **Mall of America Interactive Sales Deck** is a cinematic, A slide-based, cinematic presentation system inspired by Digideck,
+designed to deliver structured, linear storytelling for commercial real estate pitches. designed for large-scale commercial real estate storytelling.
 
 It reimagines traditional static pitch decks into a **fully interactive, video-first, narrative-driven sales platform** for:
 
 - Retail tenants (luxury, flagship, mid-tier, pop-up)
 - Brand sponsors and partners
 - Event organizers and production companies
+
+## 🎯 Deck Experience (Important Clarification)
+
+This project is intentionally designed as a **slide-based presentation system**, not a traditional website.
+
+Key characteristics:
+
+- Each section functions as a **full-screen slide (100vh)**
+- Navigation is **controlled (keyboard / next–prev buttons)**
+- No continuous scrolling experience
+- Linear storytelling flow (like PowerPoint / Keynote / Digideck)
+- Designed for **guided sales presentations**
+
+This ensures the experience behaves like a **digital pitch deck**, not a browsing website.
 
 ### 🎯 Purpose
 
@@ -189,7 +204,8 @@ This project is structured as a:
 
 > **“Cinematic Sales Engine”**
 
-Not a website — but a **modular storytelling system**.
+Not a traditional website — but a **digital presentation deck system**
+built for structured, high-impact storytelling.
 
 ---
 
@@ -204,6 +220,7 @@ Not a website — but a **modular storytelling system**.
 
 ### Animation & Interaction
 
+- Slide-based navigation system (keyboard + programmatic control)
 - Framer Motion
 - Intersection Observer API
 - Custom animated counters
@@ -396,7 +413,7 @@ This section positions the mall as a **global cultural and commercial stage**.
 
 - Full-screen cinematic hero image
 - Event category grid (launches, fashion, concerts)
-- Scroll-based motion animations
+- slide-based motion animations
 - Supporting grid of event types with descriptions
 - Reinforced engagement statistics
 
@@ -595,7 +612,7 @@ The current version represents a **fully functional sales deck MVP**, but the ar
 
 ---
 
-### 🧭 1. Scroll-Driven Deck Engine (High Priority)
+<!-- ### 🧭 1. Scroll-Driven Deck Engine (High Priority)
 
 A future enhancement would introduce a **guided narrative system**:
 
@@ -612,7 +629,13 @@ Transforms the experience from:
 
 > scroll-based website → guided cinematic pitch tool
 
----
+--- -->
+
+### 🎬 1. Advanced Presentation Mode
+
+- Auto-play slide progression (like keynote playback)
+- Presenter mode with notes
+- Click-to-advance storytelling
 
 ### 🧠 2. AI-Powered Tenant Matching System
 
